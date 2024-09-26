@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "ici",
+      "dfd"
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "c": "minecraft:cauldron",
+      "d": "minecraft:cobbled_deepslate",
+      "f": "minecraft:campfire"
+    },
+    "result": {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 12340,
+        "minecraft:item_name": "{\"text\":\"Cooking Pot\"}",
+        "minecraft:rarity": "common",
+        "minecraft:lore": [
+          "{\"text\":\"Must be fueled by Charcoal to\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"function. Throw this item on\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"the ground to place it. The Fuel\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"slot is on the front of the block\",\"color\":\"gray\",\"italic\":false}"
+        ],
+        "minecraft:custom_data": "{RunicCauldron:true,RunicCauldronInactive:true}"
+      }
+    },
+    "show_notification": true
+  }
+  

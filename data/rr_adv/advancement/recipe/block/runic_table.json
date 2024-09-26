@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_raw_gold": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:raw_gold"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_recast:block/runic_table"
+      ]
+    }
+  }
+  

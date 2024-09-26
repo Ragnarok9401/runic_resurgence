@@ -1,0 +1,1 @@
+give @s bone_meal[item_name='"Earth Charge"',custom_model_data=12345,custom_data={RunicEarthCharge:true},rarity=common] 1

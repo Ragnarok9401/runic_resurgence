@@ -1,0 +1,25 @@
+{
+    "structures": [
+      {
+        "structure": "rr_recast:ancient_crypt",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 202124052,
+      "frequency": 0.75,
+      "exclusion_zone": {
+        "other_set": "minecraft:ancient_cities",
+        "chunk_count": 8
+      },
+      "locate_offset": [
+        0,
+        0,
+        0
+      ],
+      "spacing": 40,
+      "separation": 18
+    }
+  }
+  

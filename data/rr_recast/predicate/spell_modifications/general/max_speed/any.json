@@ -1,0 +1,84 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.projectile.boosts_max_speed:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

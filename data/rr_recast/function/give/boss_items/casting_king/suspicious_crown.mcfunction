@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"color":"#FFBE0D","italic":false,"text":"Suspicious Crown"}',lore=['[{"color":"#E6BC15","italic":false,"text":"Summons "},{"color":"#FFBE0D","text":"The Casting King"}]'],damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12402,custom_data={RunicCrown:1b,RunicSusCrown:1b}] 1

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {},
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:echo_shard"
+          ],
+          "count": 1,
+          "nbt": "{custom_model_data=12334,RunicTabletE:true}"
+        }
+      }
+    }
+  }
+  

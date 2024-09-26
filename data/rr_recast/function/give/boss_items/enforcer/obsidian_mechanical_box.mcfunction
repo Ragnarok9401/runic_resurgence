@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Obsidian Machine","color":"#B06410","italic":false}',lore=['[{"text":"Summons ","color":"#ED8816","italic":false},{"text":"Obsidian-Skin Sentinel [","color":"#B06410","italic":false},{"text":"⭐⭐","color":"gold"},{"text":"]","color":"#B06410"}]'],custom_model_data=12394,custom_data={RunicBox:1b,RunicObsBox:1b}] 1

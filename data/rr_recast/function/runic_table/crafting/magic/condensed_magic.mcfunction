@@ -1,0 +1,2 @@
+execute positioned ~ ~0.4375 ~ as @n[type=item_display,distance=..0.1,tag=RunicTableItem5] run item replace entity @s contents with iron_nugget[item_name='{"text":"Condensed Magic"}',damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12342,custom_data={RunicCondensedMagic:true},enchantment_glint_override=true,rarity=uncommon]
+execute positioned ~ ~0.4375 ~ as @e[type=item_display,distance=0.1..0.5,tag=!RunicTableItem5,tag=RunicTableItem] run kill @s

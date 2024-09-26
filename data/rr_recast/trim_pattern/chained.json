@@ -1,0 +1,7 @@
+{
+  "asset_id": "rr_recast:chained",
+  "description": {
+    "translate": "trim_pattern.minecraft.chained"
+  },
+  "template_item": "minecraft:chain"
+}

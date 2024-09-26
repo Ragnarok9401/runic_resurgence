@@ -1,0 +1,3 @@
+give @p gold_nugget[item_name='[{"text":"Dirt Companion [","color":"gold","italic":false},{"text":"Heal Type","color":"green","italic":false},{"text":"]","color":"gold","italic":false}]',lore=['[{"text":"Ability: [ ","color":"dark_aqua","italic":false},{"text":"Regenerate","color":"green","italic":false},{"text":" ]","color":"dark_aqua","italic":false}]','[{"text":" - Heals up to 2 health","color":"dark_aqua","italic":false}]','[{"text":"   every 6 seconds.","color":"dark_aqua","italic":false}]','[{"text":""}]','[{"text":"To equip, hold this in your","color":"dark_gray","italic":false}]','[{"text":"Offhand slot and crouch","color":"dark_gray","italic":false}]'],custom_model_data=12355,RunicCompanion:1b,RunicComDirtH:1b,RunicComID:3b} 1
+
+# Remains broken for now

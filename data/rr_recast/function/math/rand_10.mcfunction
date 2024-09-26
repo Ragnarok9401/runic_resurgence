@@ -1,0 +1,1 @@
+execute as @s store result score @s rr.math.rand run random roll 0..9

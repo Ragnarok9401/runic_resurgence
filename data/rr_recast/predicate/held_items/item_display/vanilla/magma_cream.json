@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "slots": {
+        "contents": {
+          "items": "minecraft:magma_cream",
+          "count": 1
+        }
+      }
+    }
+  }
+  

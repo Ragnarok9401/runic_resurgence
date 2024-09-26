@@ -1,0 +1,1 @@
+give @s iron_nugget[item_name='{"text":"Superdense Magic"}',damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12341,custom_data={RunicSuperdenseMagic:true},enchantment_glint_override=true,rarity=rare] 1

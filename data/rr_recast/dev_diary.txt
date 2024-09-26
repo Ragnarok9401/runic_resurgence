@@ -1,0 +1,88 @@
+"Day 1" (8/18/24)
+This is "Day 1" in quotations because this re-write has been in the works for way more than a day, but this is the first entry in the diary!
+
+Well today was a good day for progress on the pack! Don't want to show off anything too crazy yet, but I figured a small "dev diary" thing could be fun.
+
+Today, I worked a lot more on the custom crafting table block. A huge problem I had with its old implementation was that, in order to insert items into the slots, you had to hold a singular item when you clicked a slot (aside from the Fuel slot on the front of the block). I had already known for a while that this was a pretty obvious feature I'd wanted to change, but the issue of solving it was a bit tricky. The original implementation did the following:
+- Checked which slot was 
+- If the slot didn't already have an item in it, it checked to see if the player had an item in hand or not.
+    a. If the player was holding one item, the system made a new Item Display entity and set the Item to display to whatever the player was holding.
+    b. If not, an error would return.
+- If the slot *did* already have an item in it, then the system would check if the player was holding an item or not.
+    a. If the player was holding one item, the system would create a "temp" Item Display, so that items could be shuffled around. Then, the item in the player's hand would move to the Temp Display, then the actual slot's item would replace the player's hand slot, and finally, the Temp Display would set the crafter's slot to the correct item.
+    b. If the player was *not* holding any items, then the slot would simply give its item to the player and remove itself.
+
+This old system, while functional, had some glaring quality-of-life issues:
+Players *had* to hold just *one* of any item they chose to insert into the table, and removing an item from the table required an empty hand.
+On top of this, removing an item from the table would replace your empty hand with the item that was removed, so you'd have to swap hotbar slots a lot.
+It was very clear that this would be overly annoying, tedious, and time-consuming. I had to do something!
+-
+My first idea was to simply work on placing items into the table. My goal was to make sure you could click on a slot with more than one item, and have the table remove 1 item, rather than the entire stack.
+This led me to the first instance of me actually using "Item Modifiers," which is a .json file that performs some specific action on a single item stack. This is useful because directly editing player data (things like their inventory or direct item slots) can be tedious depending on what details you want to change.
+In this instance, changing an item count would've been a nightmare without these Item Modifiers, so I hope I can use them in the future for more simplicity! (and, by proxy, performance!)
+
+Oddly enough, it was ridiculously easy to set up the file. In fact, here's everything in it:
+
+[
+    {
+    "function": "minecraft:set_count",
+    "count": -1,
+    "add": true
+    }
+]
+
+Yes, that's it! I'm sure I could've been using these for other things before, but with there being an "/item" command, I never really saw much use for this until now.
+
+With this simple change, I found it significantly easier to implement placing an item into the table, even with multiple items.
+Now, instead of checking if the player is holding an item, I now only have to check if the player is holding an item at all. If not, it simply does nothing (I removed the error message since it seemed redundant now). If so, it sets the slot to that item (and sets its Count to 1), and uses the Item Modifier above to reduce the player's held item stack by 1. The best part? If the stack is set to 0 through the Modifier, the stack removes itself from the player's inventory! Less work for me!
+-
+The harder part was figuring out what I needed to do to make this all work alongside removing and swapping items. I'll tackle swapping items first, since this solution happened to solve the latter problem for me too.
+The first solution I came up with (and the current one for now) is one that is actually pretty simple, overall. Instead of directly editing the player's inventory, I could edit something external--in this case, an Item entity (a dropped item)-- and have that inserted into a pre-existing item stack in the player's inventory.
+As I'm sure you know, items that are picked up will automatically sort themselves into non-empty stacks without any help. This solved a noticeable issue whereby a player swapping items out before would end up, of course, with the swapped item going into the hand slot every time. It felt a little clunky having a nearly-full item stack in the hotbar, only for the same item to be placed a single slot to the left... But now, this item will go right into that same stack!
+And then, the same logic used above for inserting a new item (with the Item Modifier file) was used to place the item into the slot again.
+-
+Finally, removing the items. Clicking with an empty hand is still used to remove items, but using the Item entity trick above makes it so that your hand slot is not guaranteed to be replaced when removing items any more. This makes clearing a full table significantly more seamless and wayyyyy less tedious. A much needed change for sure.
+While this system is great and all, it does still have a couple small details that I would like to be able to clear up in the future:
+- In general, I usually don't like to use Item entities in systems like this. Especially since these items can be picked up when removed, I'd ideally have it so the item is directly inserted into the player's inventory... but this issue is a real rabbit hole, and one that I don't feel very equipped to handle at the moment, at least without majorly hurting the data pack's performance. These crafters are meant to be used across wide distances and with multiple active at once, so any impact on performance will be notably multiplied on a server. I try to keep this in mind though, and while Items aren't the most significant lag-producers, it still feels a little clunky and could have exploits that I'd like to avoid (for instance, other players picking up the items that you remove). We will have to see where this takes me in the future though!
+
+I can give a more detailed explanation in the future, which may be needed if you truly want to understand this system (understandable if not!). If this explanation was confusing to you, it's probably my fault since I wanted to keep this explanation relatively short, but I could very easily go way deeper. Fun fact: The table's crafting interface (if each slot is filled) uses 21 different entities, including the temporary ones! 18 of these are relatively the same, but these and the three others have vastly different uses and functions... so do forgive me if I haven't been able to cover all of it, or if I've covered some of it sloppily.
+
+To close, I think I've made great progress in stremlining the crafting interface and its user-friendliness. Progress has gone smoothly for the most part, and I feel like I am close to being able to move on to actual spellcasting implementation. Don't tell anyone, but I also have some pretty cool ideas for this too... Be ready for some crazy stuff here in the near future!
+
+-----
+
+Entry 2
+
+I've decided that doing these by "day" isn't technically correct any more, since I'm going to try to write these as I go along. This will hopefully make future entries more cohesive and understandable as I work with more complex systems.
+
+Unfortunately, a key component of the current newest system is that it's somewhat of a secret... I'd like to keep some surprises for the actual release/playtesting on a server, and this one is definitely one that should be saved for that. I'll give a little hint though: Lamiaceae
+
+Yes, this hint is cryptic. No, I don't mind if you look it up! But don't be surprised if you can't find anything ;)
+
+What I can discuss is that the feature had me watching a 20-minute video pretty much two and a half times. Something big bugged out after the system was coded in, and I couldn't find it on my own until about halfway through the third watch. It was a bit painful, but now that it works, it was so worth it. I kinda say this a lot, but this is probably the coolest thing I've done in the pack as of yet. And I know you guys will probably love it.
+
+Next up on the chopping block is advancements. This time around, I'd like to take a more "pure" approach to advancements--using them as intended, and not as an encyclopedia--and rework them in a way that can be both fun and useful. Advancements on their own can be pretty simple to see, harmless to create, and easy to maintain. But linking them together in a pack such as this can lead to a series of questions. How many should there be? How far should they go? What should/shouldn't they cover, and should there be rewards? How can you show off your best accomplishments outside of the menu? Will anyone really care that much about it?
+
+For that last one, the answer is likely "no," or at least "not as much as you'd think." But! That doesn't mean I can't still go hard on them like the rest of the pack. And I think that the last iteration of the pack is a good baseline to go off of.
+
+Last time we played with the pack, the actual advancements that weren't meant for infodumping weren't too refined or comprehensive; the advancements that were obtained most during the server were the ones about simply casting X number of spells, which was more of a passive stat rather than a true, hard goal. I think that, while this is fun, it should be reserved for a "statistics" page rather than as advancements on their own. Perhaps some singular hidden advancement can be saved for a ridiculous number of spells cast, but it would probably be more of a silly hidden detail rather than something to go after (unless you just want to!)
+
+A couple advancements were good, solid achievements--defeating the Necrosculker is a notable example. While it seems obvious to make one for defeating a boss, I think it only adds more to how it feels to finally achieve that goal. Obvious advancements can be just as impactful (if not more so) than obscure ones, so generally the advancements I'll create going forward will be clear, concise, and occasionally obvious! (hopefully not to their detriment)
+
+Also, feel free to suggest any advancements you guys might want to have. I understand that it's probably a little hard to come up with good ones, especially not knowing everything in the pack, but if you think of something that would be cool that you might not remember in the future, lemme know and I'll see what I can do! They don't have to be bog-standard, normal, run-of-the-mill things like "find this thing" or "cast this spell" or whatever, they can be obscure (or even hidden if you'd like to keep one or two a secret!) or silly or whatever.
+
+For the moment, I'll run through a few general sections I already have in mind:
+
+## Introductory
+Of course, introductory advancements will be just that, an introduction. They'll be used as baseline knowledge for new and veteran players alike, showing the first couple steps in the pack. Progression is going to be completely revamped, and so these introductory advancements will reflect the new startup, including the creation of the first Runic Table and something for the new secret feature.
+
+## Mid-Game
+After you obtain a tablet, the whole pack should open up significantly. A certain someone suggested an idea recently that should help make this possible (thank you Boyd). Spells will definitely play a huge role in their own right, but not necessarily for advancements, save for a couple pretty simple things. Mid-game advancmenets will actually likely be geared toward structures, and while I don't plan to have an advancement for entering every structure (a couple structures should be rare enough that they warrant one), there will likely be at least one advancement tied to a structure and its function. This is to hint at the structure's general purpose while also giving me an opportunity to tie them in together for a bigger story, if I can manage to make one. As well as structures, some advancements may be tied to obtaining some special items, either by crafting or general looting.
+
+## Late-Game
+Late-game is still a bit nebulous, even for me. Some general ideas come to mind, but until I can flesh out more of the early ideas, these will have to wait for later on (possibly even into when we get a server going). However, you can expect late-game advancements to be relatively straightforward: Defeat this thing, get this crazy item, use this spell in this way under these conditions, achieve enlightenment in the way of Buddhism, you get the gist. Nothing too difficult for an average player with on-tier gear, but still something to work for.
+
+## End-Game
+Now this is a special case. The End-Game may very well be brutal for people who aren't prepared, and its advancements should be expected to match this difficulty. Similarly to late-game, I don't have any clear direction for this. Ideas have been around for a while, but reaching them is going to be another beast all on its own. Seriously, if life had advancements, this would be one of them for me. You can absolutely expect some, or maybe all, of these ridiculous advancements to come with some sort of reward as well, be it simply a trophy or a powerful item, so they will be worth the effort depending on your playstyle. A long time is between here and then, but hopefully this still gives you some hope for the future.
+
+To conclude, the spud is indeed still spreading! New systems, new optimizations, and new ideas are made all the time, and I think that the way the pack is shaping up is something special. Even though we're still *very much* in early stages of development, I can safely say that I am super motivated to continue making this project the best it can be. A long road waits ahead of us!

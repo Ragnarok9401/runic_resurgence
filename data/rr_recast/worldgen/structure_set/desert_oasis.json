@@ -1,0 +1,25 @@
+{
+    "structures": [
+      {
+        "structure": "rr_recast:desert_oasis",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 173062202,
+      "frequency": 0.5,
+      "exclusion_zone": {
+        "other_set": "minecraft:villages",
+        "chunk_count": 10
+      },
+      "locate_offset": [
+        0,
+        0,
+        0
+      ],
+      "spacing": 32,
+      "separation": 24
+    }
+  }
+  

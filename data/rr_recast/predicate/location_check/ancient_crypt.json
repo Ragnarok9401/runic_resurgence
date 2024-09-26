@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "structures": "rr_recast:ancient_crypt"
+      }
+    }
+  }
+  

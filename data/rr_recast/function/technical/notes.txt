@@ -1,0 +1,15 @@
+Knowledge Fragments and Tags:
+
+All Knowledge Fragments have the RunicKF tag as well as their respective tags listed below
+
+Ancient City - ACityFragment1 / ACityFragment2 / ACityFragment3
+Ancient Crypt - CryptFragment
+Necrosculker - NSFragment
+
+Temporarily Removed Features:
+Bosses
+Companions
+Discombobulator
+Custom Crafting
+Memory Tablets
+Musical Tablet

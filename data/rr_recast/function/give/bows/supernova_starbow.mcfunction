@@ -1,0 +1,1 @@
+give @s bow{custom_model_data=12349,RunicCustomBow:1b,display:{Name:'[{"text":"Supernova Starbow","color":"#C79BF6","italic":false}]',lore=['[{"text":""}]','[{"text":"When Shot:","color":"gray","italic":false}]','[{"text":" +80% Arrow Speed","color":"dark_green","italic":false}]']},RunicIsFireImmune:1b}

@@ -1,0 +1,1 @@
+give @s netherite_ingot[item_name='"Ruinum Ingot"',damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12321,custom_data={RunicRuinumIngot:true},rarity=epic] 1

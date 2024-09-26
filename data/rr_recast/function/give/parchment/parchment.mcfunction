@@ -1,0 +1,1 @@
+give @p paper[max_stack_size=8,item_name='"Parchment"',rarity="common",custom_model_data=12342,custom_data={RunicParchment:1b}] 1

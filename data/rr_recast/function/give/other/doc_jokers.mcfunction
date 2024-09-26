@@ -1,0 +1,2 @@
+give @s paper[custom_model_data=12343,item_name='[{"text":"Joker","color":"white","italic":false}]']
+give @s paper[custom_model_data=12344,item_name='[{"text":"Joker","color":"white","italic":false}]']

@@ -1,0 +1,25 @@
+{
+    "structures": [
+      {
+        "structure": "rr_recast:lonely_home",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 202124052,
+      "frequency": 0.75,
+      "exclusion_zone": {
+        "other_set": "minecraft:villages",
+        "chunk_count": 4
+      },
+      "locate_offset": [
+        0,
+        0,
+        0
+      ],
+      "spacing": 24,
+      "separation": 16
+    }
+  }
+  

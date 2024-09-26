@@ -1,0 +1,367 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lead",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_13",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:name_tag",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_chestplate",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_hoe",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_chestplate",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 10
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 3.0,
+          "min": 1.0
+        }
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gold_ingot",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:wheat",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bucket",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:redstone",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:coal",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:melon_seeds",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:pumpkin_seeds",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:beetroot_seeds",
+            "weight": 10
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 4.0,
+          "min": 1.0
+        }
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gunpowder",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:string",
+            "weight": 10
+          }
+        ],
+        "rolls": 3.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:vex_armor_trim_smithing_template"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 9
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:echo_shard",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomEShard:1b,custom_model_data=12344,RunicMemSet:0,MemoryTablet:1b,SpellStored:0,display:{Name:'{\"text\":\"Tablet of Memory\",\"color\":\"#FC4C98\",\"italic\":false}',lore=['[{\"text\":\"Place in a \",\"color\":\"#BD3177\",\"italic\":false},{\"text\":\"Glow Item Frame\",\"bold\":false,\"color\":\"dark_purple\",\"italic\":false}]','[{\"text\":\"on an Amethyst Block and use a \",\"color\":\"#BD3177\",\"italic\":false,\"bold\":false}]','[{\"text\":\"Runic Tablet\",\"color\":\"aqua\",\"italic\":false},{\"text\":\" to store a spell for\",\"color\":\"#BD3177\",\"italic\":false}]','[{\"text\":\"instantaneous use later on\",\"color\":\"#BD3177\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"Can store Tier 1 Spells\",\"color\":\"#FC4C98\",\"italic\":false}]']}}"
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": {
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:echo_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomEShard:1b,custom_model_data=12343,RunicTablet:true,display:{Name:'{\"text\":\"Runic Tablet\",\"color\":\"aqua\",\"italic\":false}',lore=['[{\"text\":\"Press [\",\"color\":\"#82C1FF\",\"italic\":false},{\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"blue\",\"italic\":false},{\"text\":\"] to summon\",\"color\":\"#82C1FF\",\"italic\":false,\"bold\":false}]','[{\"text\":\"a ring of Runic Flames which can be\",\"color\":\"#82C1FF\",\"italic\":false}]','[{\"text\":\"right-clicked in certain orders to cast Runic Spells\",\"color\":\"#82C1FF\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"Can cast Tier 1 Spells\",\"color\":\"aqua\",\"italic\":false}]']}}"
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "minecraft:empty",
+                "weight": 5
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomEShard:1b,display:{Name:'{\"text\":\"Zen Shard\",\"color\":\"#9844ED\",\"italic\":false}',lore=['{\"text\":\"Raw essence of peace and\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"tranquility. Useful for various\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"recipes\",\"color\":\"dark_purple\",\"italic\":false}']},custom_model_data=12342,ZenShard:1b,Enchantments:[{}]}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1,
+                  "add": false
+                }
+              ]
+            }
+          ],
+        "rolls": 1.0
+      }
+    ]
+  }

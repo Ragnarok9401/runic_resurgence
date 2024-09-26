@@ -1,0 +1,1 @@
+data modify storage rr.ui mask set value [{Slot:13b,id:"minecraft:diamond_sword","components":{"minecraft:item_name":"Games","minecraft:custom_data":{RunicMenuItem:{command:"function rr_recast:menu/gui/demo/games/open"}}}},{Slot:26b,id:"minecraft:barrier","components":{"minecraft:custom_model_data":2,"minecraft:item_name":"","minecraft:custom_data":{RunicMenuItem:{empty:1b}}}}]

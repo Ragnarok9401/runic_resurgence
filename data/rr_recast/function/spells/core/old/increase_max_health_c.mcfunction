@@ -1,0 +1,21 @@
+
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=78}] at @s run attribute @s generic.max_health base set 80
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=78}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=76}] at @s run attribute @s generic.max_health base set 78
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=76}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=74}] at @s run attribute @s generic.max_health base set 76
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=74}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=72}] at @s run attribute @s generic.max_health base set 74
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=72}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=70}] at @s run attribute @s generic.max_health base set 72
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=70}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=68}] at @s run attribute @s generic.max_health base set 70
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=68}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=66}] at @s run attribute @s generic.max_health base set 68
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=66}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=64}] at @s run attribute @s generic.max_health base set 66
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=64}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=62}] at @s run attribute @s generic.max_health base set 64
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=62}] at @s run scoreboard players add @s rr.system.AttributeA 2
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=60}] at @s run attribute @s generic.max_health base set 62
+execute as @s[tag=RunicHealthUpC,scores={rr.system.AttributeA=60}] at @s run scoreboard players add @s rr.system.AttributeA 2

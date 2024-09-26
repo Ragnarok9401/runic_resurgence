@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {},
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:netherite_ingot"
+          ],
+          "count": 1,
+          "nbt": "{custom_model_data=12333,RunicTabletS:true}"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "name": "rr_recast:ancient_crypt",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt",
+          "processors": "minecraft:ancient_city_generic_degradation"
+        }
+      }
+    ]
+  }
+  

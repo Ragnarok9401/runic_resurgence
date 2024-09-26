@@ -1,0 +1,1 @@
+give @s echo_shard[item_name='[{"text":"Warden Flesh","color":"aqua","italic":false}]',custom_model_data=12339,custom_data={CustomEShard:1b,WardenFlesh:1b},damage_resistant={"types":"#minecraft:is_fire"}] 1

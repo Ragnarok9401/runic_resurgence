@@ -1,0 +1,1 @@
+give @s gold_nugget[item_name='{"text":"Onyx Gemstone","color":"#794B77","italic":false}',custom_model_data=12359,custom_data={RunicOnyx:1b,RunicCustomGN:1b}]

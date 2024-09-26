@@ -1,0 +1,21 @@
+{
+    "values":[
+        "#rr_recast:tools",
+        "minecraft:shield",
+        "minecraft:flint_and_steel",
+        "minecraft:shears",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "#rr_recast:swords",
+        "minecraft:trident",
+        "#rr_recast:armor",
+        "minecraft:brush",
+        "minecraft:fishing_rod",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:echo_shard",
+        "minecraft:nether_brick",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_ingot"
+    ]
+}

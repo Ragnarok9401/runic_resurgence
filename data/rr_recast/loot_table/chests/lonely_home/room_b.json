@@ -1,0 +1,156 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 8,
+          "max": 12
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_sapling",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6,
+                  "min": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heartbreak_pottery_shard"
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raiser_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:host_armor_trim_smithing_template"
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_shovel",
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 28,
+                  "min": 4
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.33
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_pickaxe",
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 28,
+                  "min": 4
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.33
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe",
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 28,
+                  "min": 4
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.33
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword",
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 28,
+                  "min": 4
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.33
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

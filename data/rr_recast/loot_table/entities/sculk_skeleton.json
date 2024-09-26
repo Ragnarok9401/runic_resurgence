@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 19
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Ancient Shard\",\"color\":\"gold\",\"italic\":false}',lore=['{\"text\":\"A piece of an artifact lost to time.\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Perhaps its original form can be restored\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"with the help of your magic\",\"color\":\"dark_purple\",\"italic\":false}']},custom_model_data=12345,RunicAncientShard:1b,Enchantments:[{}]}"
+              }
+            ],
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 49
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Knowledge Fragment\",\"color\":\"yellow\",\"italic\":false}',lore=['[{\"text\":\"Stored Knowledge: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Ancient Crypt\",\"color\":\"#5387D6\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To learn its secrets, hold it\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"in your hand and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12349,RunicKF:1b,CryptFragment:1b,Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 79
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RunicSharpCheck:0,RunicNSharp:0,display:{Name:'{\"text\":\"Cursed Golden Falchion\",\"color\":\"gold\",\"italic\":false}'},Unbreakable:1b,custom_model_data=12345,RunicAncientSword:1b,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}],attribute_modifiers=[{type:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",amount:10,operation:"add_value",uuid:[I;1653473334,1969308251,-1258290850,1549377243],Slot:\"mainhand\"},{type:\"generic.movement_speed\",amount:-0.2,operation:"add_multiplied_base",uuid:[I;-313181829,1010386238,-1849562234,1075171598],Slot:\"mainhand\"},{type:\"generic.attack_damage\",amount:6,operation:"add_value",uuid:[I;-1605932555,1037713733,-1417694937,-1867317446],Slot:\"mainhand\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

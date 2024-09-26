@@ -1,0 +1,1 @@
+give @s nether_star[item_name='[{"text":"Earth Star"}]',rarity=rare,damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12349,custom_data={RunicEarthStar:1b},enchantment_glint_override=true]

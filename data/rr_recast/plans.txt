@@ -1,0 +1,310 @@
+Done:
+
+Fix bugs with the Musical Tablet - done
+
+Return Spell - Teleport to wherever you last set your Spawn to, set by using the spell once on a bed or respawn anchor. Unset spawn by removing the bed or anchor, then allows you to set it again. Has a rather long warmup and you cannot move for it to activate. - Done
+
+ --- Alter current Spell Startup particles for teleporting to a Return Point. Make 'em cool.
+
+Magnetize - Teleport nearby items to user (in about a 10-12 block radius) - Done
+
+Add a way to just play notes on the Runic Circle like an instrument - Done
+
+Darkvision should have usable items that extend the duration - Done
+
+Tiered Runic Tablets [done] / Tablets of Memory [done]
+
+Arcane Enchanting: Higher levels of current enchantments and -Custom Enchantments-  [Done!]
+    Current Tools: Sword, Bow
+    Current Enchantments: Echo, Fervor, Recursion, Sunstruck, Moonstruck, Gift of Gravity, Tether, Rebound
+    Planned Enchantments: Satchel, Engine, Aiming, Combo (Maybe cosmetic?), Datamine (Cosmetic, show dmg dealt / blocks broken), Awakened Ammo
+
+Necrosculker Boss
+
+Tiered Runic Tablets / Memory Tablets - Done
+Either improved Cast Time, improved Cooldown Time, or access to more spells. Could also be a combination of the three.
+Ideas:
+    [Runic Tablet] Cobalt (basic) -> Enriched (enhanced) -> Soulbound (advanced) -> Master (perfected)
+    [Tablet of Memory] Electrum (basic) -> Enhanced (enhanced) -> Superior (advanced) -> Immaculate (perfected)
+
+
+To Work On Next:
+
+Vitality Essence from Companion decanting
+
+Maybe some of the old magic bows?
+
+Maybe an Amethyst Shield that grows as you're hit?
+
+something that uses Dragon's Breath, gonna have to be pretty powerful
+
+
+The Paladins of Zthendol
+
+
+
+
+
+The Paladin of Catastrophe and the Fortress of Eldryx
+    The player comes across a small tent near an oasis in the desert. Inside this tent is a woman named Dianne Anasudra (codename Zerzuret).
+    She's an archaeologist on the hunt for something her father once tried to find.
+    It's an ancient desert fortress that houses a powerful gemstone thought to have been brought to this dimension during a great cataclysm.
+    Unfortunately, that gemstone was taken and well guarded by a city that was toppled long ago.
+    Rumor has it that the gemstone was left where it was first found, and for a reason that nobody knows.
+    Its secrets were lost with the civilization that kept it, but somehow Dianne's father had some insight that few others had.
+    After his old age and a life-threatening disease kept him from continuing his investigation, Dianne took up the chase herself, striving to find the treasure in hopes that it may wipe the disease from her father.
+    When the player comes across her, she is desperate for help, as she seems to have not found anyone in her entire months-long journey who can give her aid.
+    And the player seems like the perfect help!
+
+    Fortunately for the player, Dianne knows the relative location of the fortress, and tells the player its exact distance from the point they stand.
+    The player's job is to seek out the fortress and attempt to get in somehow. It won't be easy, and traps will impede the player's progress as much as they can.
+    When the player manages to get into a central chamber, Dianne will reach the player and come inside as well. She'll inform the player that her father's efforts could only ever barely scratch the surface of what was inside, but that the player must still try to find clues as to what to do next. There will be something rather obvious to do, but the things required to move on will have to be somewhat challenging.
+
+    Eventually, after these trials are completed, the player and Dianne will gain access to the final chamber, where an ancient mummy will act as a "final" challenge to Dianne and the player. The mummy will constantly whisper to the player and to Dianne about the dangers presented in the power of the gemstone, but Dianne will be headstrong in her resolve to get the stone and save her father. The mummy will speak about how the gemstone is actually capable of its own thoughts and emotions, and will be even stronger than the mummy itself. It won't fight with blades or bows, but with the mind. It has the power to take over a host body, infuse it with chaotic energy, and command it as its pawn. This is exactly what happens after the player and Dianne beat the mummy. Dianne, not thinking for a moment, tries to grab the gemstone to take it with her, but is immediately taken over by a strong magical force--the gemstone. Dianne turns to the player and, in a completely different voice, booms out that the player is just as much of a threat to the gemstone as Dianne was, and thus must be eliminated. This is where the true final fight of this questline takes place.
+
+    The gemstone will sense the player's powers over the course of the fight, and will come to an understanding that the player isn't just any old threat--they're the very force the gemstone was designed to help overcome. Eldryx, an ancient entity bent on destruction and ruin, is the one who created the gemstone and the fortress. The ancient civilization that found the gemstone was actually a cult of followers of Eldryx, who frequently sacrificed their own people to the gemstone to help grow Eldryx's power. Eventually, the city that these cultists lived in fell to another power, and thus Eldryx was put into a deep slumber without regular sacrifices. Dianne woke this entity up, and now is under the control of Eldryx. Fortunately, since this is the only soul Eldryx has access to, his strength is heavily stunted. This gives the player ample opportunity to destroy this evil force once and for all.
+
+Satchel Enchantment: Each tool can carry an amount of specific items that it is efficient for
+Redstone Engine enchantment: Use redstone (or another item idk) to power up your tool, granting haste while held
+
+Randomized stat changes for Companions (data modify stuff)
+Companions can be converted into Life Essence so duplicates don't become an issue (use this essence to create other companions)
+
+The Halundfell Dimension - Where Magic Once Flowed
+ - Contains a questline that allows players to renew the magic in the world (per player, only those who have completed the questline can use spells in the dimension)
+ - Contains a boss that must be summoned using magic, and a boss that acts as the final climax for the quest
+
+[previously Harpsong Sycophant]
+Sunsong Sycophant should be next boss, maybe consider a drop that allows for Multicasting (but only for like 2 or 3 spells at a time) "Thousandth Strand?"
+
+Change reduced Cooldown Time on each upgraded Runic Tablet to apply its cooldown change to when RunicSpellStart tag is on players, will make it so that it won't update until after the spell's altered cooldown time is applied
+
+Necrosculker Boss Fight:
+    Rather than being a beat-down on a damage sponge, it could be a survival challenge where the boss tries to weaken your mind so that it can use the Takeover spell on you and make you into one of its minions. It uses some bullet-hell aspects of showing an area of attack, and then attacking there, mixed with some aspects of a normal boss like summoning its own minions to fight you and try to push you toward where the boss will hit. Can use boss bars to show time remaining until the boss is out of steam and for the amount of mental fortitude you have remaining before Takeover works on you.
+    The Takeover, Tendril Wave, and Blind Spells should be some of the rewards for successfully surviving and beating this boss!
+
+Solidify (?) Spell - Turn Lava / Water to Obsidian / Stone depending on what item is in offhand
+Liquidate (?) Spell - Turn Ice / Stone or Obsidian to Water / Lava depending on what item is in offhand
+
+
+Jukebox automation - dropper drops stick, disc is ejected
+Necrosculker fixes - more obvious indicators of lasers, changing directions, slower/faster - done
+                     fix where players can jump up on pillars to avoid the lasers or the tendrils when enraged (maybe another laser higher up, or teleporting the player downward) - done
+                     Fix for the Sculk Catalyst triggering with the Tendrils
+                     Make Totem of Undying give resistance so lasers don't hit through them - done
+
+
+Siphon Enchant - Take an enchantment off of an item in the user's offhand (not a book) and apply it to a single book in a glow item frame nearby (unless the book already has an enchantment)
+
+Finish Chain Mine Spell
+
+
+Add more Soul Foci to Soul Steal Spell
+
+Implement more Advancements
+
+Time Flux Spell (grows more powerful the longer you wait between casts)
+
+Armor Trim / Material Abilities (?)
+
+
+
+
+Other people's ideas/contributions:
+Incubation Chamber to work with companions? Make new ones, boost existing ones, evolve, upgradeable table
+Custom Biome (maybe implemented and generated using a Spell?)
+
+
+
+
+
+|=============VVVVVVV===============|
+|>>>>>>>>>>>> Balance <<<<<<<<<<<<<<|
+|=============^^^^^^^===============|
+
+
+
+
+
+To Do:
+
+All current planned spells
+
+
+
+Maybe:
+Spell Rewards:
+Track stats and other things to give access to spells upon reaching a milestone. For instance, jumping 20 times gives Leap (maybe not exactly like this, but that's just the idea)
+
+BOSSES!
+1-8 = Common Bosses, varying degree of integrity to the world's story
+9-12 = Domain's Devout, first really deep segment of bosses with intricate lore, can or should be able to be fought in any order (unless fighting Post-Sin versions)
+13+ = Superbosses, designed to be both integral to the world's story and a highly difficult challenge. Each and every boss is stronger than the last, but not always necessary to beat (unless fighting Post-Sin versions)
+
+⭐
+
+- Prologue (1+)
+
+ Necrosculker (1) - Done                [Suspicious Dark Heart]
+    Elite Necrosculker                  [Angered Dark Heart]
+    Nightmare Necrosculker              [Wrathful Dark Heart]
+    Void Necrosculker                   [Evil Dark Heart]
+    *Dark Soul Necrosculker (Sin)       [Dark Soul Heart]
+
+ Sunsong Sycophant (2) - Auva - Next    [Suspicious Harp]
+    Sunstruck Sycophant                 [Chaotic Harp]
+    Sunfire Sycophant                   [Dreadful Harp]
+    Sunsoul Sycophant                   [Catastrophic Harp]
+    *Black Sun Sycophant (Sin)          [Voidstrand Harp]
+
+ The Wayfarer (3)                       [Suspicious Sunstone]
+    Tireless Wayfarer                   [Envigored Sunstone]
+    Soulsearching Wayfarer              [Sacred Sunstone]
+    Enlightened Wayfarer                [Unfathomed Sunstone]
+
+ Paladin of Catastrophe (4) - XIL               [Suspicious Banner]
+    Paladin of the Torrent                      [Ancient Banner]
+    Paladin of the Maelstrom                    [Maelstrom Banner]
+    Paladin of the Apocalypse                   [Infamous Banner]
+    *The Paladin That Killed Time (Sin)         [Clockwork Banner]
+
+ Mad Chef (5) - Delilah     [Suspicious Pepper]
+    Enraged Chef            [Heated Pepper]
+    Fury-Fueled Chef        [Blaze Pepper]
+    Chef of Wrath           [Wraith Pepper]
+    *The Temper (Sin)       [Soul-Reaper Pepper]
+
+ They Who Silence (6) - Slevun and Solrum   [Suspicious Twin Crystals]
+    They Who Decide                         [Synchronized Twin Crystals]
+    They Who Conquer                        [Inseparable Twin Crystals]
+    They Who Reconcile                      [Gleaming Twin Crystals]
+    *They Who Remember (Sin)                [Unforgettable Twin Crystals]
+
+ The Enforcer / The Sentinel (7) - Ull          [Suspicious Mechanical Box]
+    Steel-Forged Enforcer/Sentinel              [Steel Mechanical Box]
+    Obsidian-Skin Enforcer/Sentinel             [Obsidian Mechanical Box]
+    Netherite-Heart Enforcer/Sentinel           [Netherite Mechanical Box]
+    *Soul-Steel Enforcer/Sentinel (Sin)         [Soulsteel Mechanical Box]
+
+ The Stoneshifter (8) - Geth' Renn          [Suspicious Shifting Mold]
+    The Stonemaker                          [Infused Shifting Mold]
+    The Stonestayer                         [Volcanic Shifting Mold]
+    The Stonelord                           [Bejeweled Shifting Mold]
+    *Author of the Solemn Stone (Sin)       [Sentient Shifting Mold]
+
+⭐
+
+- Domain's Devout (9-12) and Storyshapers (13+)
+ - The Casting King - (9)               [Suspicious Crown]
+    Incanacni
+        Spellborn King                  [Imbued Crown]
+        Arcane Emperor                  [Arcanist's Crown]
+        Element Overlord                [Overlord's Crown]
+        *Casting Catalyst (Sin)         [The Catalyst's Crown]
+
+ - The Heretic of the Elements - (10)   [Suspicious Sigil]
+    Cairom
+        Spellborn Heretic               [Imbued Sigil]
+        Arcane Outlaw                   [Arcanist's Sigil]
+        The Blaspheme                   [Blaspheme's Sigil]
+        *Heretic Catalyst (Sin)         [The Catalyst's Sigil]
+
+ - The Flowsmith - (11)                     [Suspicious Ethereal Anvil]
+    Thyrnellia
+        Adept Flowsmith                     [Refined Ethereal Anvil]
+        Masterwork Flowsmith                [Master's Ethereal Anvil]
+        God-Sent Flowsmith                  [Heavenly Ethereal Anvil]
+        *Flow-Molding Catalyst (Sin)        [The Catalyst's Ethereal Anvil]
+
+ - The Solemn Stone - (12)              [Suspicious Runic Gemstone]
+    Stone of Eternity
+        The Sacred Stone                [Sacred Runic Gemstone]
+        The Siphoning Stone             [Siphoning Runic Gemstone]
+        The Sovereign Stone             [Sovereign Runic Gemstone]
+        *Eternity Catalyst (Sin)        [Eternal Runic Gemstone]
+
+
+ - The Denounced - (13)         [Suspicious Bottle of Disdain]
+    Ser Aphim
+        The Reviled             [Potent Bottle of Disdain]
+        The Unspeakable         [Pungent Bottle of Disdain]
+        The Abhorred            [Unstable Bottle of Disdain]
+        Mockery                 [Supercritical Bottle of Disdain]
+        *Vengeful Mockery (Sin) [Plasmatic Bottle of Disdain]
+
+⭐
+
+- Worldshapers (14+)
+
+ -- Master of Chaos -- (14)        [Suspicious Chaos Fractal]
+    Domain
+        Domain II                  [Engulfing Chaos Fractal]
+        Domain III                 [Accelerated Chaos Fractal]
+        Domain, God of Runes       [Holy Chaos Fractal]
+        *Domain, Runeshaper (Sin)  [Carnal Chaos Fractal]
+
+ -- Witness -- (15)        [Suspicious Oracle's Eye]
+        Witness II         [Observant Oracle's Eye]
+        Witness III        [Sentient Oracle's Eye]
+        The Truthseeker    [Foreseeing Oracle's Eye]
+        *The Ensurer (Sin) [Reflective Oracle's Eye]
+
+ -- The Unyielding God -- (16)              [Suspicious Bloodstone]
+    Bloodlust
+        Bloodlust II                        [Bloodbenders' Bloodstone]
+        Bloodlust III                       [Vile Bloodstone]
+        Bloodlust, The Carnage Incarnate    [Abyssal Bloodstone]
+        *Bloodshed (Sin)                    [All-Consuming Bloodstone]
+
+ -- Wayfarer II -- (17)         [Suspicious Wayfarer's Calling]
+        Dimensional Wayfarer    [Phased Wayfarer's Calling]
+        Multiversal Wayfarer    [Transcendant Wayfarer's Calling]
+        Prophetic Wayfarer      [Absolute Wayfarer's Calling]
+        *True Wayfarer (Sin)    [Purified Wayfarer's Calling]
+
+ -- The Unwilling God -- (18)               [Suspicious Holy Symbol]
+    Benevolence
+        Benevolence, The Willing God        [Glowing Holy Symbol]
+        Benevolence, The Vigilant God       [Illuminant Holy Symbol]
+        Benevolence, The Unstoppable God    [Perserverant Holy Symbol]
+        *Awakened Benevolence (Sin)         [Absolvent Holy Symbol]
+
+ -- The Wager -- (19)              [Suspicious Helmet]
+        Wager of Battles           [Helmet of Centuries]
+        Wager of Wars              [Helmet of Millenia]
+        Wager of The Exikrath      [Helmet of Aeons]
+        *Wager of The End (Sin)    [Helmet of Purgatory]
+
+⭐
+
+- The Finale (20+)
+
+ -- War-Worn Mirror -- (20)            [Suspicious Infernal Glass]
+    The Corrupted Memory
+        The Nightmare                  [Wretched Infernal Glass]
+        The Recognition                [Demonic Infernal Glass]
+        The Vivid Memory               [Brutal Infernal Glass]
+        *The Understanding (Sin)       [Perfect Infernal Glass]
+
+ -- The Unnamed God -- (21) [Suspicious Soul Cage]
+    Yourself
+        Putrid self         [Putrid Soul Cage]
+        Unworthy self       [Unworthy Soul Cage]
+        Deserving self      [Deserving Soul Cage]
+            (Defeating unlocks Sin Bosses)
+        Sinful Soul         [Sinful Soul Cage]
+            (Each post-sin boss represents a specific negative emotion, like Anger, Frustration, Guilt, Shame, Sadness)
+            (Sinful Soul's name should constantly change between several different names to represent a culmination of the journey thus far)
+        **Soul              [Ascension]
+            (Can be summoned after all Post-Sin Bosses are defeated, not a fight, a reward)
+            (Grants total control over the Spellcrafting Table, with an optional toggle on limits and spell cost increases)
+
+
+Paramount Spells?
+AND / OR
+Tier-Up Spells?
+Like upgradeable versions of current spells or new and unique tiered spells that are, themselves, upgraded over time with materials
+
+Spell Towers?
+Can be placed and modified to run a single spell facing certain directions / at nearby entities / at nearby player(s) / at the tower itself
+Spell would be set by placing a Tablet of Memory in the tower set to the desired Spell, with additional options and things available depending on the Spell selected

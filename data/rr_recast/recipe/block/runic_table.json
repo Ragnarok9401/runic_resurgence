@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "aga",
+      "qts",
+      "aoa"
+    ],
+    "key": {
+      "a": "minecraft:amethyst_shard",
+      "s": "minecraft:glow_ink_sac",
+      "q": "minecraft:quartz",
+      "t": "minecraft:smithing_table",
+      "g": "minecraft:raw_gold_block",
+      "o": "minecraft:obsidian"
+    },
+    "result": {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 12342,
+        "minecraft:item_name": "{\"text\":\"Runic Crafting Table\"}",
+        "minecraft:rarity": "common",
+        "minecraft:lore": [
+          "{\"text\":\"Must be powered by Havenite Meteor\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"Chunks to function. Throw this item\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"on the ground to place it. The Fuel\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"slot is on the front of the block\",\"color\":\"gray\",\"italic\":false}"
+        ],
+        "minecraft:custom_data": "{RunicTable:true,RunicTableInactive:true}"
+      }
+    },
+    "show_notification": true
+  }
+  

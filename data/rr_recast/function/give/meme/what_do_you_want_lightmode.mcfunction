@@ -1,0 +1,1 @@
+give @s stick[item_model="rr_recast:meme/what_do_you_want_lightmode",minecraft:equippable={slot:"head"},enchantments={"rr_recast:meme/what_do_you_want":1},item_name='[{"text":"What do you want?","color":"white"}]',enchantment_glint_override=false]

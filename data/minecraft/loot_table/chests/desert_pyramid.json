@@ -1,0 +1,344 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:diamond",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 7.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gold_ingot",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:emerald",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:spider_eye",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 7.0,
+                  "min": 3.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_horse_armor",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_horse_armor",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_horse_armor",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 15
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 4.0,
+          "min": 2.0
+        }
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gunpowder",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:string",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sand",
+            "weight": 10
+          }
+        ],
+        "rolls": 4.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:dune_armor_trim_smithing_template"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 14
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:echo_shard",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_model_data=12344,RunicMemSet:0,MemoryTablet:1b,SpellStored:0,display:{Name:'{\"text\":\"Tablet of Memory\",\"color\":\"#FC4C98\",\"italic\":false}',lore=['[{\"text\":\"Place in a \",\"color\":\"#BD3177\",\"italic\":false},{\"text\":\"Glow Item Frame\",\"bold\":false,\"color\":\"dark_purple\",\"italic\":false}]','[{\"text\":\"on an Amethyst Block and use a \",\"color\":\"#BD3177\",\"italic\":false,\"bold\":false}]','[{\"text\":\"Runic Tablet\",\"color\":\"aqua\",\"italic\":false},{\"text\":\" to store a spell for\",\"color\":\"#BD3177\",\"italic\":false}]','[{\"text\":\"instantaneous use later on\",\"color\":\"#BD3177\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"Can store Tier 1 Spells\",\"color\":\"#FC4C98\",\"italic\":false}]']}}"
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": {
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:echo_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_model_data=12343,RunicTablet:true,display:{Name:'{\"text\":\"Runic Tablet\",\"color\":\"aqua\",\"italic\":false}',lore=['[{\"text\":\"Press [\",\"color\":\"#82C1FF\",\"italic\":false},{\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"blue\",\"italic\":false},{\"text\":\"] to summon\",\"color\":\"#82C1FF\",\"italic\":false,\"bold\":false}]','[{\"text\":\"a ring of Runic Flames which can be\",\"color\":\"#82C1FF\",\"italic\":false}]','[{\"text\":\"right-clicked in certain orders to cast Runic Spells\",\"color\":\"#82C1FF\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"Can cast Tier 1 Spells\",\"color\":\"aqua\",\"italic\":false}]']}}"
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "minecraft:empty",
+                "weight": 6
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Zen Shard\",\"color\":\"#9844ED\",\"italic\":false}',lore=['{\"text\":\"Raw essence of peace and\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"tranquility. Useful for various\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"recipes\",\"color\":\"dark_purple\",\"italic\":false}']},custom_model_data=12342,ZenShard:1b,Enchantments:[{}]}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1,
+                  "add": false
+                }
+              ]
+            }
+          ],
+        "rolls": 1.0
+      }
+    ]
+  }

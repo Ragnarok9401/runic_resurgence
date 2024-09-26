@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dirt"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1496
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Dirt Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Cosmetic\",\"color\":\"gray\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"None\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12352,RunicCompanion:1b,RunicComDirt:1b,RunicComID:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Dirt Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Heal Type\",\"color\":\"green\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Regenerate\",\"color\":\"green\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Heals 1 health\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   every 5 seconds.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12355,RunicCompanion:1b,RunicComDirtH:1b,RunicComID:3b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Dirt Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Speedup\",\"color\":\"aqua\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants a 20% boost to\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   your base Speed.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12354,RunicCompanion:1b,RunicComDirtE:1b,RunicComID:4b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Dirt Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Dmg Type\",\"color\":\"red\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Energy Shot\",\"color\":\"blue\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Shoots a bolt every 3 seconds\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   that deals 3 damage.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"Targeting can be changed by\",\"color\":\"light_purple\",\"italic\":false}]','[{\"text\":\"holding items in your Offhand:\",\"color\":\"light_purple\",\"italic\":false}]','[{\"text\":\"| Gold Ingot : Targeting Off\",\"color\":\"gold\",\"italic\":false}]','[{\"text\":\"  (requires Normal Targeting)\",\"color\":\"gold\",\"italic\":false}]','[{\"text\":\"| Iron Ingot : Normal Targeting\",\"color\":\"yellow\",\"italic\":false}]','[{\"text\":\"  (No Players or Ignored Entities)\",\"color\":\"yellow\",\"italic\":false}]','[{\"text\":\"| Coal : Include Players\",\"color\":\"gold\",\"italic\":false}]','[{\"text\":\"  (requires Normal Targeting)\",\"color\":\"gold\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12353,RunicCompanion:1b,RunicComDirtD:1b,RunicComID:2b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  }
+  

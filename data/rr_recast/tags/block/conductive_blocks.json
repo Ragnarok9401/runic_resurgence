@@ -1,0 +1,19 @@
+{
+    "values": [
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "minecraft:netherite_block",
+    "minecraft:cauldron",
+    "minecraft:smithing_table",
+    "minecraft:blast_furnace",
+    "minecraft:lightning_rod",
+    "minecraft:copper_block",
+    "minecraft:cut_copper",
+    "minecraft:cut_copper_stairs",
+    "minecraft:cut_copper_slab",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_cut_copper",
+    "minecraft:waxed_cut_copper_stairs",
+    "minecraft:waxed_cut_copper_slab"
+]
+}

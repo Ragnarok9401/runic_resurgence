@@ -1,0 +1,14 @@
+{
+  "replace": false,
+    "values": [
+      "rr_recast:magic_generic",
+      "rr_recast:magic_fire",
+      "rr_recast:magic_cold",
+      "rr_recast:magic_air",
+      "rr_recast:magic_chaos",
+      "rr_recast:magic_earth",
+      "rr_recast:magic_explosion",
+      "rr_recast:magic_lightning",
+      "rr_recast:magic_piercing"
+    ]
+  }

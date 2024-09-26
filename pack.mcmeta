@@ -1,0 +1,14 @@
+{
+    "id": "rr_recast",
+    "pack": {
+      "pack_format": 50,
+      "description": "Runic Resurgence brings mysterious magic to Minecraft!"
+    },
+    "features": {
+      "enabled": [
+        "bundle",
+        "trade_rebalance"
+      ]
+    }
+  }
+  

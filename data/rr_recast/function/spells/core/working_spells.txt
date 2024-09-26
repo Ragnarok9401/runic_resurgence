@@ -1,0 +1,134 @@
+            Spell Inputs are as follows:
+                         1
+                   8           2
+
+                 7       9       3
+
+                   6           4
+                         5
+
+
+
+(1) Spell ID 92347 [T1]: Magic Bolt
+
+(2) Spell ID 54286 [T2]: Enchanted Shield
+
+(3) Spell ID 41695 [T1]: Leap
+
+(4) Spell ID 35129 [T1]: Storm of Cuts
+
+(5) Spell ID 75139 [T1]: Blastaway
+
+(6) Spell ID 72615 [T1]: Chaotic Sparks (Applies Wither and disorients players near user)
+
+(7) Spell ID 85273 [T1]: Life Force (Depending on current Health, deals damage to entities nearby, but costs health to use (less cost with lower health, down to 0 if near death))
+
+(8) Spell ID 51829 [T2]: Chain Mine (Veinminer for Runic Tablets, armor stands detect similar blocks nearby out of a list of candidates)
+
+(9) Spell ID 15428 [T1]: Darkvision (Grants temporary night vision)
+
+(10) Spell ID 35126 [T2]: Flurry (A series of small firework bursts in front of the user (more damage than Magic Bolt, but far shorter range))
+
+(11) Spell ID 26849 [T2]: Timestop Aura (In a moderate range, NoAI applied to entities nearby for a moment, and user can only look around, not move)
+
+(12) Spell ID 89245 [T2]: Mass Heal (Heals all Players on the same Team as the user within a certain range (extended cooldown))
+
+(13) Spell ID 49531 [T3]: Runic Empowerment (Grants strength to user for a time and a lesser amount to all Players on the same Team (extended cooldown))
+
+(14) Spell ID 71395 [T1]: Current (Sends nearby entities upward with levitation, no slow falling afterward)
+
+(15) Spell ID 18975 [T3]: Thundrous Smite (Only usable during storms, calls lightning down near the user (extended cooldown))
+
+(16) Spell ID 26548 [T1]: Cleanse (Cures user of some negative status effects and applies minor regeneration for a time (extended cooldown))
+
+(17) Spell ID 54721 [T2]: Ricochet Bolt (Sends out a boomerang-esque bolt that flies toward entities in a range of the player)
+
+(18) Spell ID 67134 [T3]: Coil (Creates a small monolith that sparks electricity toward nearby entities, stunning them temporarily (extended cooldown))
+
+(19) Spell ID 76938 [T2]: Sapping Vines (Creates an area that poisons entities within, and applies regeneration to user if entities are within the area (extended cooldown))
+
+(20) Spell ID 82654 [T2]: Cold Snap (Only usable while in cold environments and on entities that aren't Cold Resistant (defined in tags), causes severe damage and slowdown to nearby entities)
+
+(21) Spell ID 57194 [T2]: Engulfing Flame (Only usable while in hot environments and on entities that aren't Heat Resistant (defined in tags), causes severe damage and sets entities on fire for a long time)
+
+(22) Spell ID 84926 [T2]: Critical Charge (Grants Critical State to user, causing the next hit to deal double damage (extended cooldown, effect lasts for a moderate time))
+
+(23) Spell ID 14567 [T1]: Liquid State (Only usable in water or if a Water Bucket is held in offhand slot, grants Water Breathing and Dolphin's Grace for a time (extended cooldown))
+
+(24) Spell ID 84162 [T3]: Wrath (Only usable if a Beacon Payment Item is in the offhand slot, consumes the payment item and bulids up damage taken for a time, which is later released as damage (extended cooldown))
+
+(25) Spell ID 57391 [T1]: Renew Grass (Consumes 32 seeds from Offhand slot and places a grass block below the player if there is dirt)
+
+(26) Spell ID 84521 [T1]: Enhance Senses (somehow shows entities nearby to only the user, even if they are behind walls)
+
+(27) Spell ID 12357 [T1]: Bubble (Prevents anything from getting inside and keeps the user inside with whatever else was with them at the time of casting (extended cooldown))
+
+(28) Spell ID 89215 [T2]: Energize (Consumes 8 Redstone Dust from Offhand, grants Speed and Haste temporarily (extended cooldown))
+
+(29) Spell ID 61459 [T2]: First Wind (Acts like Leap, but sends the user higher and more quickly, without the Slow Falling effect (meant to be used with Elytra))
+
+(30) Spell ID 67934 [T3]: Enchant Self (Disenchants an Enchanted Book in the user's Offhand, depending on what enchantment was stripped gain XP, powers, or other things)
+
+(31) Spell ID 18769 [T1]: Ignore (Grants Spell Immunity to entities within a small range of the player, shows which entities have this immunity)
+
+(32) Spell ID 12349 [T1]: Target (Removes Spell Immunity from entities within a small range of the player, shows which entities still have immunity)
+
+(33) Spell ID 26194 [T1]: Invisify (Causes entities to turn invisible for a time, or in select scenarios, permanently (until Cleanse is used))
+                        For instance: Item Frames, Glow Item Frames and Armor Stands all will become invisible until Cleanse is used near them
+(34) Spell ID 21583 [T3]: Soul Steal (Similar to Life Force in that life is taken from the user, but siphons life from entities around the user and will
+                        grant buffs based on the Soul Focus component that the user sacrifices. Displays Heart particles in a line to the user from entities hit)
+(35) Spell ID 25891 [T2]: Quick Fall (Reverse of Leap and First Wind, causes users to fall with great speed and take no damage from it)
+
+(36) Spell ID 87593 [T3]: XP Shuffle - Mend (Takes an amount of XP from the player, then re-summons it on them so that tools, weapons and armor can be repaired with Mending)
+
+(37) Spell ID 87592 [T3]: XP Shuffle - Heal (Takes an amount of XP from the player, then heals that player based on the amount of XP needed / available)
+
+(38) Spell ID 87591 [T4]: XP Shuffle - Feed (Takes an amount of XP from the player, then feeds that player based on the amount of XP needed / available)
+
+(39) Spell ID 68924 [T4]: Materialize (Takes an Ancient Emblem from user, then adds a Duplication Shard to the player's inventory. With 8 of them, the player may duplicate any one item in their offhand with this spell)
+
+(40) Spell ID 73918 [T3]: Chrono Bolt (Shoots a bolt of time energy with varying strength dependent on how recently you last cast the spell, up to 10 minutes)
+
+(41) Spell ID 69713 [T2]: Luminesce (Summons a couple Allays which are invisible and cause light to be summoned around them, illuminating small areas around the summoner for a time)
+
+(42) Spell ID 41892 [T3]: Whirlwind (Damages some entities a bit and pushes them back greatly in the direction the user is looking)
+
+(43) Spell ID 89152 [T3]: Three-Fold Freeze (Three sweeps of cold energy lash out from beside and above the user, dealing Cold damage, inflicting Slow, and moving whatever is hit downward rapidly (for players use levitation))
+
+(44) Spell ID 92467 [T2]: Magic Shotbolt (Magic Bolt, but it splits into multiple smaller, slightly weaker bolts for better area-of-effect, slightly lower range)
+
+(45) Spell ID 34167 [T2]: Stone Rise (Casts a stony thorn at the feet of nearby entities and players, causing slowness and launching them upward if they are on the ground)
+
+(46) Spell ID 13597 [T2]: Chaos Bolt (Creates an Interaction at the user's head, only allowing for a hit to cast the spell fully. Until the Interaction is hit, the user constantly takes low amounts of Chaos damage and will have a weak slowness effect. When the Interaction is hit, a single powerful bolt of raw Chaos magic is sent outward very slowly. It will deal massive Chaos damage in a large area where it explodes, which happens after a long flight, collision with a block, or collision with an entity)
+
+(47) Spell ID 64918 [T2]: Solidify (?) - Turn Lava / Water to Obsidian / Stone depending on what item is in offhand
+
+(48) Spell ID 82956 [T2]: Liquidate (?) - Turn Ice / Stone or Obsidian to Water / Lava depending on what item is in offhand
+
+(49) Spell ID 51294 [T3]: Return - Teleport to wherever you last set your Spawn to, set by using the spell once on a bed or respawn anchor. Unset spawn by removing the bed or anchor, then allows you to set it again. Has a rather long warmup and you cannot move for it to activate.
+
+(50) Spell ID 24568 [T1]: Magnetize - Teleport nearby items to user (in about a 10-12 block radius)
+
+(51) Spell ID 87324 [T3]: Siphon Enchant - Take an enchantment off of an item in the user's offhand (not a book) and apply it to a single book in a glow item frame nearby (unless the book already has an enchantment)
+
+(52) Spell ID 78194 [T2]: Search - Depending on item in offhand slot, search for a structure within 2000 blocks of the player's current position. Random chance to consume the item upon casting, use Loot Tables to do this!
+
+(53) Spell ID 19345 [T2]: Chaos Strike (Creates an Interaction at the user's head, only allowing for a hit to cast the spell fully. Until the Interaction is hit, the user constantly takes low amounts of Chaos damage and will have a weak slowness effect. When the Interaction is hit, a burst of chaos energy is sent outward a short distance, disorienting players, inflicting weakness and nausea, and dealing relatively high damage)
+
+(54) Spell ID 83625 [TS]: Takeover [Necrosculker] (Allows the user to take over the mind and body of an entity that they are facing. The user becomes immobile, invulnerable, and invisible for a time until the targeted creature dies or until a time limit is up. Jumping, walking and running are all transferred to the target, as well as any additional traits the target may have intrinsically (for instance, a bat's flying ability or a creeper's explosion))
+
+(55) Spell ID 64391 [T3]: Lightwalk (While not in complete darkness, the user gains the ability to move and jump proportionally to the light level they are in. While in the maximum amount of light, or while outside during certain times, the user may also fly by looking up and fall faster by looking down.)
+
+(56) Spell ID 72948 [T4]: Rememberance (Consumes a Netherite Apple and a Totem of Undying. Upon your next death, you will regain all lost items and XP. The user will have to cast this spell after each death to activate its effects once more.)
+
+(57) Spell ID 69452 [T3]: Roulette (Randomly chooses between a set of effects (damage, potion effects, summons, etc) to cause around the user)
+
+(58) Spell ID 69847 [T1]: Silence (Causes entities nearby to become silent until Louden is used on them again, can also make spells cast by the user become silent if an iron ingot is held in offhand)
+
+(59) Spell ID 69832 [T1]: Louden (Negates the effects of Silence and may allow for spells to make sounds again if an iron ingot is held in offhand)
+
+(60) Spell ID 31859 [T3]: Cluster Bolt (Shoots a burst of 12 small cubes of magic out from the user, each dealing a moderate amount of damage)
+
+(61) Spell ID 62385 [TS | T3]: Tendril Wave [Necrosculker] (Uses the Massive Sculk Tendrils from the Necrosculker to stab at targets nearby in a ring starting far from the user and moving inward (deal earth damage))
+
+(62) Spell ID 72419 [TS | T2]: Sculk Mine [Necrosculker] (Summon a Sculk Root Pod that will explode when anything draws near to it, dealing a moderately high amount of Earth Magic damage to targets in a large range)

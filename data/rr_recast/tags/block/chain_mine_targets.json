@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#minecraft:coal_ores",
+        "#minecraft:copper_ores",
+        "#minecraft:iron_ores",
+        "#minecraft:gold_ores",
+        "#minecraft:lapis_ores",
+        "#minecraft:redstone_ores",
+        "minecraft:nether_quartz_ore",
+        "#minecraft:diamond_ores",
+        "minecraft:ancient_debris",
+        "minecraft:amethyst_block",
+        "minecraft:gilded_blackstone",
+        "#minecraft:emerald_ores",
+        "minecraft:raw_copper_block",
+        "minecraft:raw_iron_block",
+        "minecraft:raw_gold_block"
+]
+}

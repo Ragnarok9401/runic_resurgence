@@ -1,0 +1,1 @@
+give @s bow{custom_model_data=12347,RunicCustomBow:1b,display:{Name:'[{"text":"Neutron Starbow","color":"#FFF2CC","italic":false}]',lore=['[{"text":""}]','[{"text":"When Shot:","color":"gray","italic":false}]','[{"text":" +60% Arrow Speed","color":"dark_green","italic":false}]']},RunicIsFireImmune:1b}

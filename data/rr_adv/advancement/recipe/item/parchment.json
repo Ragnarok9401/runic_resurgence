@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_paper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:paper"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_recast:item/parchment"
+      ]
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:music_disc_cat",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 12289
+        }
+      },
+      "title": "The Sequel",
+      "description": [
+        "Obtain an Enriched Runic Tablet for better spells"
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "rr_adv:mainline/get_runic_tablet",
+    "criteria": {
+      "get_compendium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:music_disc_cat",
+              "components": {
+                "minecraft:custom_model_data": 12289
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

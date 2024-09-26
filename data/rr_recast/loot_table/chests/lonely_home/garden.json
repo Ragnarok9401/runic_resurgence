@@ -1,0 +1,291 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 8,
+          "max": 12
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:wheat_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:melon_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:pumpkin_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6,
+                  "min": 3,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:beetroot_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 3,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:potato",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 3,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:wheat",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:hay_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:melon",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:pumpkin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:beetroot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5,
+                  "min": 1,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2,
+                  "min": 1,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4,
+                  "min": 1,
+                  "add": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:iron_hoe",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 18,
+                "conditions":[
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.35
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 249
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:bundle"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:sweet_berries",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 2,
+                  "add": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

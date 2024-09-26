@@ -1,0 +1,7 @@
+{
+  "asset_id": "rr_recast:technoknight",
+  "description": {
+    "translate": "trim_pattern.minecraft.technoknight"
+  },
+  "template_item": "minecraft:redstone_block"
+}

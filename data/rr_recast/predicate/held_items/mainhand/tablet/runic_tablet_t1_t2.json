@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "rr_recast:held_items/mainhand/tablet/runic_tablet"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "rr_recast:held_items/mainhand/tablet/runic_tablet_enriched"
+      }
+    ]
+  }
+  

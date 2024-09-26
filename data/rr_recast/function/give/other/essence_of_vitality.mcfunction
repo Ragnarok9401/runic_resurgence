@@ -1,0 +1,1 @@
+give @s gold_nugget[item_name='{"text":"Vitality Essence","color":"aqua","italic":false}',custom_model_data=12362,custom_data={RunicCustomGN:1b,RunicVitEssence:1b}]

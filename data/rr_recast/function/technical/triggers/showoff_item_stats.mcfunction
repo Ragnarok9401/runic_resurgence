@@ -1,0 +1,2 @@
+tellraw @a [{"selector":"@s"},{"text":" is showcasing <","color":"gray","italic":false,"bold":false,"obfuscated":false,"underlined":false,"strikethrough":false},{"text":"test"},{"text":">\n"},{"text":"lore"}]
+$tellraw @a ['[{"selector":"@s"},{"text":" is showcasing <","color":"gray","italic":false,"bold":false,"obfuscated":false,"underlined":false,"strikethrough":false},$(item_name),{"text":">\n"}]',$(lore)]

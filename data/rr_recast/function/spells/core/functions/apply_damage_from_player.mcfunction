@@ -1,0 +1,3 @@
+execute as @a if score @s rr.system.playerUUID1 = @n[tag=rr.entity,distance=..0.01] rr.system.matchUUID1 if score @s rr.system.playerUUID2 = @n[tag=rr.entity,distance=..0.01] rr.system.matchUUID2 if score @s rr.system.playerUUID3 = @n[tag=rr.entity,distance=..0.01] rr.system.matchUUID3 if score @s rr.system.playerUUID4 = @n[tag=rr.entity,distance=..0.01] rr.system.matchUUID4 run tag @s add rr.projectile.summoner
+$execute as @e[distance=..$(explosion_aoe),tag=!rr.projectile.summoner,type=!#rr_recast:spell_ignore] run function rr_recast:spells/core/functions/apply_damage {"damage":$(damage),"damage_type":'$(damage_type)'}
+tag @a[tag=rr.projectile.summoner] remove rr.projectile.summoner

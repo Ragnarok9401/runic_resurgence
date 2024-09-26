@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Steel-Forged Machine","color":"#C26F12","italic":false}',lore=['[{"text":"Summons ","color":"#ED8816","italic":false},{"text":"Steel-Forged Sentinel [","color":"#C26F12","italic":false},{"text":"⭐","color":"gold"},{"text":"]","color":"#C26F12"}]'],custom_model_data=12393,custom_data={RunicBox:1b,RunicSteelBox:1b}] 1

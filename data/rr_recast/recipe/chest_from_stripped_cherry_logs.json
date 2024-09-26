@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "lll",
+      "l l",
+      "lll"
+    ],
+    "key": {
+      "l": {
+        "item": "minecraft:stripped_cherry_log"
+      }
+    },
+    "result": {
+      "item": "minecraft:chest",
+      "count": 4
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gold_nugget",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 12342
+        }
+      },
+      "title": "Wild Magic Table",
+      "description": "Obtain a Runic Table, the baseline for all of your Runic Resurgence crafting",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "rr_adv:mainline/root",
+    "criteria": {
+      "craft_runic_table": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "rr_recast:block/runic_table"
+        }
+      }
+    }
+  }
+  

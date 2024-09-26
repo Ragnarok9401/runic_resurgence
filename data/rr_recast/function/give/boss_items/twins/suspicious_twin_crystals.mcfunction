@@ -1,0 +1,1 @@
+give @s gold_nugget[max_stack_size=8,item_name='{"text":"Suspicious Double Crystals","color":"#C22AE8"}',lore=['[{"text":"Summons ","color":"#D317E8","italic":false},{"text":"The Silencers","color":"#C22AE8","italic":false}]'],damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12387,custom_data={RunicBossCrystals:1b,RunicSusCrystals:1b}] 1

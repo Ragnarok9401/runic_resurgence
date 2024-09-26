@@ -1,0 +1,1 @@
+data modify entity @s data.aura.display.border.radius set from entity @s data.aura.radius

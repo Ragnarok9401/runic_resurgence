@@ -1,0 +1,1 @@
+give @s bow[item_name='[{"text":"Deep Dark Bow","color":"#3367B6","italic":false}]',lore=['[{"text":""}]','[{"text":"When Shot:","color":"gray","italic":false}]','[{"text":" +25% Arrow Speed","color":"dark_green","italic":false}]'],custom_model_data=12345,custom_data={RunicCustomBow:1b,RunicIsFireImmune:1b},damage_resistant={"types":"#minecraft:is_fire"},max_damage=1536]

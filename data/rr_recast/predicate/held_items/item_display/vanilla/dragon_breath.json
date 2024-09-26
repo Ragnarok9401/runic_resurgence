@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "slots": {
+        "contents": {
+          "items": "minecraft:dragon_breath",
+          "count": 1
+        }
+      }
+    }
+  }
+  

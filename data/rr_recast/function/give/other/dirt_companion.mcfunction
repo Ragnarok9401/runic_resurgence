@@ -1,0 +1,3 @@
+give @p gold_nugget[item_name='[{"text":"Dirt Companion [","color":"gold","italic":false},{"text":"Cosmetic","color":"gray","italic":false},{"text":"]","color":"gold","italic":false}]',lore=['[{"text":"Ability: [ ","color":"dark_aqua","italic":false},{"text":"None","color":"gray","italic":false},{"text":" ]","color":"dark_aqua","italic":false}]','[{"text":""}]','[{"text":"To equip, hold this in your","color":"dark_gray","italic":false}]','[{"text":"Offhand slot and crouch","color":"dark_gray","italic":false}]'],custom_model_data=12352,RunicCompanion:1b,RunicComDirt:1b,RunicComID:1b} 1
+
+# Remains broken for now

@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Suspicious Shifting Mold","color":"#988CFF","italic":false}',lore=['[{"text":"Summons ","color":"#5C4AFF","italic":false},{"text":"The Stoneshifter","color":"#988CFF","italic":false}]'],custom_model_data=12397,custom_data={RunicMold:1b,RunicSusMold:1b}] 1

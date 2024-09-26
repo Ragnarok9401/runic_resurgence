@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Soulsteel Machine","color":"#2439A3","bold":true,"italic":false}',lore=['[{"text":"Summons ","color":"#5858DB","italic":false},{"text":"Soulsteel Sentinel [","color":"#2439A3","italic":false},{"text":"⭐","color":"red"},{"text":"]","color":"#2439A3"}]'],custom_model_data=12396,custom_data={RunicBox:1b,RunicSoulBox:1b}] 1

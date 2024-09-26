@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "interact_slot_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"RunicTable\",\"RunicTableSlot1\",\"RunicTableSlot\"]}",
+            "distance": {
+              "absolute": {
+                "min": 0,
+                "max": 12
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rr_recast:runic_table/interactions/interact_slot_1"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {},
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:echo_shard"
+          ],
+          "count": 1,
+          "nbt": "{display:{Name:'{\"text\":\"Tablet of Memory\",\"color\":\"#FC4C98\",\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

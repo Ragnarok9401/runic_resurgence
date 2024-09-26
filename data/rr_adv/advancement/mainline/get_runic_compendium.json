@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:book",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 12347
+        }
+      },
+      "title": "Well Now I Know",
+      "description": [
+        {"text":"Using a Book and a Parchment, craft a Runic Compendium in the Runic Table","italic":false},
+        {"text":"\n\n"},
+        {"text":"(Book in the center, Parchment on the right)","italic":false,"color":"gold"}
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "rr_adv:mainline/craft_runic_table",
+    "criteria": {
+      "get_compendium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:book",
+              "components": {
+                "minecraft:custom_model_data": 12347
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

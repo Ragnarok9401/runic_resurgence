@@ -1,0 +1,138 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 2
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potato",
+            "functions": [
+              {
+                "function": "minecraft:furnace_smelt",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "flags": {
+                        "is_on_fire": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "condition": "minecraft:random_chance_with_looting",
+            "chance": 0.025,
+            "looting_multiplier": 0.01
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 749
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Zombie Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Night Strength\",\"color\":\"red\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Gives +25% total damage at night\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   but -25% total damage during the day.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12358,RunicCompanion:1b,RunicComZomb:1b,RunicComID:6b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Zombie Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Night Strength\",\"color\":\"red\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Gives +25% total damage at night\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   but -25% total damage during the day.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12358,RunicCompanion:1b,RunicComZomb:1b,RunicComID:6b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{IsBaby:1b}"
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "source_entity": {
+                "type": "minecraft:falling_block",
+                "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}",
+                "location": {}
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

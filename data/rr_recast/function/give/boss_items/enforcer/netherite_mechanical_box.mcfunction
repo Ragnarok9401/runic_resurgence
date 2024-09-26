@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Netherite Machine","color":"#A35D0F","italic":false}',lore=['[{"text":"Summons ","color":"#ED8816","italic":false},{"text":"Netherite Heart Sentinel [","color":"#A35D0F","italic":false},{"text":"⭐⭐⭐","color":"gold"},{"text":"]","color":"#A35D0F"}]'],custom_model_data=12395,custom_data={RunicBox:1b,RunicNethBox:1b}] 1

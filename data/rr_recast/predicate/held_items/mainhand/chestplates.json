@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {},
+      "equipment": {
+        "mainhand": {
+          "tag": "rr_recast:chestplates"
+      }
+    }
+  }
+}
+  

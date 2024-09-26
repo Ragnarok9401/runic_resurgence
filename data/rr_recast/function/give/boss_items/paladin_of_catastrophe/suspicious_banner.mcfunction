@@ -1,0 +1,1 @@
+give @s gold_nugget[max_stack_size=8,item_name='{"text":"Suspicious Banner","color":"#26FFA1"}',lore=['[{"text":"Summons ","color":"#29CF29","italic":false},{"text":"Paladin of Catastrophe","color":"#26FFA1","italic":false}]'],custom_model_data=12376,custom_data={RunicBossBanner:1b,RunicSusBanner:1b}] 1

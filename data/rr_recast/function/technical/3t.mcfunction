@@ -1,0 +1,4 @@
+execute as @a at @s run execute as @e[type=interaction,tag=RunicTableSlot,distance=..10,limit=20,sort=nearest] at @s unless entity @n[type=item_display,distance=..0.01,tag=RunicTableItem] if entity @n[type=item_display,distance=..0.75,tag=RunicTableActive] run particle minecraft:electric_spark ~ ~0.0625 ~ 0 0 0 0 1 normal
+execute as @a at @s run execute as @e[type=interaction,tag=RunicTableSlot10,distance=..10,limit=3,sort=nearest] at @s if entity @n[type=item_display,distance=..0.5,tag=!RunicTableActive,tag=RunicTableDisplay] run particle minecraft:portal ~ ~ ~ 0 0 0 0.33 1 normal
+
+schedule function rr_recast:technical/3t 3t replace

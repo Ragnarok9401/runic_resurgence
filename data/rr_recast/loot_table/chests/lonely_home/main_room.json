@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 8,
+          "max": 12
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "uniform",
+                  "max": 10,
+                  "min": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "bowl",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "uniform",
+                  "max": 4,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "potion",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{Potion:\"minecraft:water\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "beef",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "uniform",
+                  "max": 4,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "porkchop",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "uniform",
+                  "max": 4,
+                  "min": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "chicken",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "type": "uniform",
+                  "max": 4,
+                  "min": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,3 @@
+give @s gold_nugget[item_name='[{"text":"Baby Sculk Creature Companion [","color":"gold","italic":false},{"text":"Stat Type","color":"aqua","italic":false},{"text":"]","color":"gold","italic":false}]',lore=['[{"text":"Ability: [ ","color":"dark_aqua","italic":false},{"text":"Sculk Vitality","color":"aqua","italic":false},{"text":" ]","color":"dark_aqua","italic":false}]','[{"text":" - Grants +5 Max Health.","color":"dark_aqua","italic":false}]','[{"text":""}]','[{"text":"To equip, hold this in your","color":"dark_gray","italic":false}]','[{"text":"Offhand slot and crouch","color":"dark_gray","italic":false}]'],custom_model_data=12363,RunicCompanion:1b,RunicComNS:1b,RunicComID:8b}
+
+# Remains broken for now

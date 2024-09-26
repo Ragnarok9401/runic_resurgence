@@ -1,0 +1,26 @@
+{
+	"description": "What do you want?",
+	"supported_items": "#minecraft:enchantable/durability",
+	"slots": ["mainhand"],
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "attacker",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "rr_recast:enchantments/meme/what_do_you_want"
+			}
+		}]
+	}
+}

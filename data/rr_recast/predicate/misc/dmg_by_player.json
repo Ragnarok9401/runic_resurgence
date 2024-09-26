@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:damage_source_properties",
+    "predicate": {
+      "is_explosion": false,
+      "is_fire": false,
+      "is_magic": false,
+      "is_projectile": false,
+      "is_lightning": false,
+      "bypasses_invulnerability": false,
+      "bypasses_magic": false,
+      "direct_entity": {
+        "type": "minecraft:player",
+        "distance": {
+          "absolute": {
+            "min": 0,
+            "max": 8
+          }
+        }
+      }
+    }
+  }
+  

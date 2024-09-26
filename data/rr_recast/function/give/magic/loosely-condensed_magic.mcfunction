@@ -1,0 +1,1 @@
+give @s iron_nugget[item_name='{"text":"Loosely-Condensed Magic"}',damage_resistant={"types":"#minecraft:is_fire"},custom_model_data=12344,custom_data={RunicLooseMagic:true},enchantment_glint_override=true,rarity=uncommon] 1

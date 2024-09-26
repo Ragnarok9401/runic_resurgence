@@ -1,0 +1,49 @@
+execute as @s[tag=RunicStand1,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12365
+execute as @s[tag=RunicStand2,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12366
+execute as @s[tag=RunicStand3,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12367
+execute as @s[tag=RunicStand4,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12368
+execute as @s[tag=RunicStand5,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12369
+execute as @s[tag=RunicStand6,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12370
+execute as @s[tag=RunicStand7,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12371
+execute as @s[tag=RunicStand8,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12372
+execute as @s[tag=RunicStand9,tag=RunicOrder1] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12373
+
+execute as @s[tag=RunicStand1,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12374
+execute as @s[tag=RunicStand2,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12375
+execute as @s[tag=RunicStand3,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12376
+execute as @s[tag=RunicStand4,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12377
+execute as @s[tag=RunicStand5,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12378
+execute as @s[tag=RunicStand6,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12379
+execute as @s[tag=RunicStand7,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12380
+execute as @s[tag=RunicStand8,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12381
+execute as @s[tag=RunicStand9,tag=RunicOrder2] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12382
+
+execute as @s[tag=RunicStand1,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12383
+execute as @s[tag=RunicStand2,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12384
+execute as @s[tag=RunicStand3,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12385
+execute as @s[tag=RunicStand4,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12386
+execute as @s[tag=RunicStand5,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12387
+execute as @s[tag=RunicStand6,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12388
+execute as @s[tag=RunicStand7,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12389
+execute as @s[tag=RunicStand8,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12390
+execute as @s[tag=RunicStand9,tag=RunicOrder3] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12391
+
+execute as @s[tag=RunicStand1,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12392
+execute as @s[tag=RunicStand2,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12393
+execute as @s[tag=RunicStand3,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12394
+execute as @s[tag=RunicStand4,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12395
+execute as @s[tag=RunicStand5,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12396
+execute as @s[tag=RunicStand6,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12397
+execute as @s[tag=RunicStand7,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12398
+execute as @s[tag=RunicStand8,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12399
+execute as @s[tag=RunicStand9,tag=RunicOrder4] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12400
+
+execute as @s[tag=RunicStand1,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12401
+execute as @s[tag=RunicStand2,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12402
+execute as @s[tag=RunicStand3,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12403
+execute as @s[tag=RunicStand4,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12404
+execute as @s[tag=RunicStand5,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12405
+execute as @s[tag=RunicStand6,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12406
+execute as @s[tag=RunicStand7,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12407
+execute as @s[tag=RunicStand8,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12408
+execute as @s[tag=RunicStand9,tag=RunicOrder5] run data modify entity @n[type=item_display] item.components."minecraft:custom_model_data" set value 12409

@@ -1,0 +1,2 @@
+tellraw @s [{"text":"You are inspecting: <","color":"gray","italic":false,"bold":false,"obfuscated":false,"underlined":false,"strikethrough":false},{"text":"test"},{"text":">"}]
+$tellraw @s [{"text":"You are inspecting: <","color":"gray","italic":false,"bold":false,"obfuscated":false,"underlined":false,"strikethrough":false},$(item_name),{"text":">"}]

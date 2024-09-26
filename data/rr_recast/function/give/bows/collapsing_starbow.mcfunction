@@ -1,0 +1,1 @@
+give @s bow{custom_model_data=12348,RunicCustomBow:1b,display:{Name:'[{"text":"Collapsing Starbow","color":"gold","italic":false}]',lore=['[{"text":""}]','[{"text":"When Shot:","color":"gray","italic":false}]','[{"text":" +70% Arrow Speed","color":"dark_green","italic":false}]']},RunicIsFireImmune:1b}

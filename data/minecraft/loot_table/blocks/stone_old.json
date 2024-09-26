@@ -1,0 +1,224 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cobblestone",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1999
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Stone Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Solid\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +2 Knockback\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   Resistance.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12357,RunicCompanion:1b,RunicComStone:1b,RunicComID:5b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "tag": "minecraft:pickaxes",
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "levels": {
+                      "min": 1,
+                      "max": 1000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1749
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Stone Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Solid\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +2 Knockback\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   Resistance.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12357,RunicCompanion:1b,RunicComStone:1b,RunicComID:5b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:pickaxes",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "levels": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1499
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Stone Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Solid\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +2 Knockback\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   Resistance.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12357,RunicCompanion:1b,RunicComStone:1b,RunicComID:5b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:pickaxes",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "levels": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1249
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Stone Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Solid\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +2 Knockback\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   Resistance.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12357,RunicCompanion:1b,RunicComStone:1b,RunicComID:5b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:pickaxes",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "levels": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 999
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Stone Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Solid\",\"color\":\"gray\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +2 Knockback\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"   Resistance.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12357,RunicCompanion:1b,RunicComStone:1b,RunicComID:5b}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:pickaxes",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "levels": {
+                    "min": 4,
+                    "max": 1000
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

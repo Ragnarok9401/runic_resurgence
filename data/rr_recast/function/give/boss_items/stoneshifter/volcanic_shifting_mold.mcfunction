@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Volcanic Shifting Mold","color":"#975EC9","italic":false}',lore=['[{"text":"Summons ","color":"#5C4AFF","italic":false},{"text":"The Stonestayer [","color":"#975EC9","italic":false},{"text":"⭐⭐","color":"gold"},{"text":"]","color":"#975EC9"}]'],custom_model_data=12399,custom_data={RunicMold:1b,RunicVolMold:1b}] 1

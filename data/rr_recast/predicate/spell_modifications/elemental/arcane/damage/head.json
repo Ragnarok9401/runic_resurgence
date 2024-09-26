@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "minecraft:custom_data": "{rr.spell.magic.boosts_damage:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

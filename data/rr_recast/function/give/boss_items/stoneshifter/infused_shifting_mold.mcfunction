@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Infused Shifting Mold","color":"#7595E0","italic":false}',lore=['[{"text":"Summons ","color":"#5C4AFF","italic":false},{"text":"The Stonemaker [","color":"#7595E0","italic":false},{"text":"⭐","color":"gold"},{"text":"]","color":"#7595E0"}]'],custom_model_data=12398,custom_data={RunicMold:1b,RunicInfMold:1b}] 1

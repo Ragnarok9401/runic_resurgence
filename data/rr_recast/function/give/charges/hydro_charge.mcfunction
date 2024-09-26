@@ -1,0 +1,1 @@
+give @s iron_nugget[item_name='"Hydro Charge"',custom_model_data=12340,custom_data={RunicHydroCharge:true},rarity=uncommon] 1

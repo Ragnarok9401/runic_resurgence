@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {},
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:echo_shard"
+          ],
+          "count": 1,
+          "nbt": "{MusicalTablet:1b,display:{Name:'{\"text\":\"Musical Tablet\",\"color\":\"#85C79A\",\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

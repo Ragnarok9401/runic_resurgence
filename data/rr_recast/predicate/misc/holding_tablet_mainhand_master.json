@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:echo_shard",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": "RunicTabletTier:1"
+        }
+      }
+    }
+  }
+}

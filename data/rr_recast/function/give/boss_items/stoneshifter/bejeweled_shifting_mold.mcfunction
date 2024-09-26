@@ -1,0 +1,1 @@
+give @p gold_nugget[max_stack_size=8,item_name='{"text":"Bejeweled Shifting Mold","color":"#AD4491","italic":false}',lore=['[{"text":"Summons ","color":"#5C4AFF","italic":false},{"text":"The Stonelord [","color":"#AD4491","italic":false},{"text":"⭐⭐⭐","color":"gold"},{"text":"]","color":"#AD4491"}]'],custom_model_data=12400,custom_data={RunicMold:1b,RunicBejMold:1b}] 1

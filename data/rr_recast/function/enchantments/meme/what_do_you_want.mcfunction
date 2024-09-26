@@ -1,0 +1,1 @@
+playsound rr_recast:meme.what_do_you_want player @a[distance=..20] ~ ~ ~ 0.8 1 0

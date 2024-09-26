@@ -1,0 +1,359 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 20,
+        "max": 26
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.35
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:sculk_catalyst",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:sculk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sculk_sensor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomEShard:1b,display:{Name:'[{\"text\":\"Warden Flesh\",\"color\":\"aqua\",\"italic\":false}]'},custom_model_data=12339,WardenFlesh:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Disc Fragment\",\"color\":\"white\",\"italic\":false}',lore=['{\"text\":\"Music Disc - Deep Trouble / Cryptic\",\"color\":\"gray\",\"italic\":false}']},custom_model_data=12347,RunicDiscFrag:1b,RunicFragDT:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 60,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Deep Dark Crest\",\"color\":\"#5387D6\",\"italic\":false}'},custom_model_data=12364,RunicDDCrest:1b,Enchantments:[{}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Deep Dark Core\",\"color\":\"#5387D6\",\"italic\":false}',lore=['{\"text\":\"The heart of the Necrosculker.\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Able to upgrade some equipment and\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"craft powerful items\",\"color\":\"dark_purple\",\"italic\":false}']},custom_model_data=12346,RunicDDCore:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Knowledge Fragment\",\"color\":\"yellow\",\"italic\":false}',lore=['[{\"text\":\"Stored Knowledge: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"The Necrosculker - 2\",\"color\":\"#5387D6\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To learn its secrets, hold it\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"in your hand and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12353,RunicKF:1b,NSEFragment:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 38
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RunicSharpCheck:0,RunicNSharp:0,display:{Name:'{\"text\":\"Sculk Falchion\",\"color\":\"#5387D6\",\"italic\":false}',lore=['{\"text\":\"\"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.4 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,Unbreakable:0b,custom_model_data=12345,RunicSculkCleaver:1b,attribute_modifiers=[{type:\"generic.attack_damage\",Name:\"generic.attack_damage\",amount:12,operation:"add_value",uuid:[I;-1225965525,-794606409,-1782939729,-473196184],Slot:\"mainhand\"},{type:\"generic.attack_speed\",Name:\"generic.attack_speed\",amount:-2.6,operation:"add_value",uuid:[I;1398274238,1396067062,-2038713233,1895671139],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{custom_model_data=12345,RunicCustomBow:1b,display:{Name:'[{\"text\":\"Deep Dark Bow\",\"color\":\"#3367B6\",\"italic\":false}]',lore=['[{\"text\":\"\"}]','[{\"text\":\"When Shot:\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\" +25% Arrow Speed\",\"color\":\"dark_green\",\"italic\":false}]']},RunicIsFireImmune:1b}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 59
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Baby Sculk Creature Companion [\",\"color\":\"gold\",\"italic\":false},{\"text\":\"Stat Type\",\"color\":\"aqua\",\"italic\":false},{\"text\":\"]\",\"color\":\"gold\",\"italic\":false}]',lore=['[{\"text\":\"Ability: [ \",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\"Sculk Vitality\",\"color\":\"aqua\",\"italic\":false},{\"text\":\" ]\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\" - Grants +5 Max Health.\",\"color\":\"dark_aqua\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"To equip, hold this in your\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"Offhand slot and crouch\",\"color\":\"dark_gray\",\"italic\":false}]'],custom_model_data=12363,RunicCompanion:1b,RunicComNS:1b,RunicComID:8b}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Vitality Essence\",\"color\":\"aqua\",\"italic\":false}'},custom_model_data=12362,RunicCustomGN:1b}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
